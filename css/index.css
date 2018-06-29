@@ -1,0 +1,88 @@
+*{
+  box-sizing: content-box;
+}
+
+.nav-wrapper{
+  background-color: #26a69a;
+}
+
+.barra-superior{
+  min-height: 4rem;
+}
+div[class*="columna"]{
+  min-height: 24rem;
+}
+
+.logoindex{
+  width: 3.5%;
+}
+
+.fondoTransparente{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+  height:200%;
+	background-color:#fff;
+	/*IE*/
+	filter: alpha(opacity=20);
+	/*FireFox Opera*/
+	opacity: .2;
+}
+
+.i1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 15px;
+}
+
+.i2{
+  width: 100%;
+}
+
+.i3{
+  width: 40%;
+  padding: 15px 10px;
+}
+
+.i4{
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+@media (max-width: 770px) {
+  .logoindex{
+    width: 9%;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  .logoindex{
+    width: 5%;
+  }
+}
+
+@media (max-width: 375px) {
+  .logoindex{
+    width: 13%;
+  }
+
+}
+
+@media (max-width: 400px) {
+
+
+
+}
+
+@media (max-width: 420px) {
+  .logoindex{
+    width: 10%;
+  }
+}

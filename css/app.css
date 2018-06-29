@@ -1,0 +1,113 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.fondo{
+  display: block;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: auto;
+  background-color: #E6E6FA; opacity: 0.93;
+
+}
+
+.columns{
+    height: auto;
+}
+
+#slogan{
+  padding: 15px;
+  text-align: right;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.btbusc{
+  margin: 10% auto;
+}
+
+.busc{
+  margin: 10% auto;
+  width: 80%;
+  height: 41%;
+}
+
+.bodycito {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.cajarece1{
+  display: block;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+  background-color: #D8BFD8;
+  border-bottom: 1px solid gray;
+}
+
+#logoreceta1{
+  width: 150%;
+  display: block;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#barra{
+  border: 1px solid #BA55D3;
+}
+
+#fecha{
+  color: #BA55D3;
+}
+
+.bt1{
+  width: 100%;
+}
+
+.i1{
+  margin-left: auto;
+  margin-right: auto;
+  width: 31%;
+  flex-direction: row;
+}
+
+.com1{
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 1px solid #000000;
+}
+
+.user{
+  width: 30px;
+  padding: 1px;
+  margin: 2% 2% 2% 2%;
+}
+
+/* Ahora podemos cambiar solo la propiedad background-image */
+@media (min-width: 480px) {
+    body {
+        background-image: url("background-480w.png");
+    }
+}
+@media (min-width: 768px) {
+    body {
+        background-image: url("background-768w.png");
+    }
+}
+@media (min-width: 1200px) {
+    body {
+        background-image: url("background-1200w.png");
+    }
+}

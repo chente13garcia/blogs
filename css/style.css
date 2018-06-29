@@ -1,0 +1,45 @@
+*{
+  box-sizing: content-box;
+}
+
+.container{
+   background-color:#FFDEAD;
+   width: 90%;
+   height: 150px;
+}
+
+.logoindex{
+  width: 5%;
+}
+
+.cuerpo{
+  background: #E8ECF7;
+}
+
+
+@media (max-width: 770px) {
+
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+
+
+
+@media (max-width: 375px) {
+
+
+}
+
+@media (max-width: 400px) {
+
+
+
+}
+
+@media (max-width: 420px) {
+
+}
